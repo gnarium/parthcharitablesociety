@@ -87,7 +87,7 @@ export default function Home() {
                     <div class="col-lg-12">
                         <div class="section_title text-center pb-30">
                             <img src="assets/images/section_icon.png" alt="Icon"/>
-                            <h3 class="title">Featured Camapaign</h3>
+                            <h3 class="title">Our Running Camapaign</h3>
                         </div> 
                     </div>
                 </div> 
