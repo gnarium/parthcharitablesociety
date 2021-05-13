@@ -17,7 +17,6 @@ export default function Footer()
                             <p>Parth Charitable Trust is a nonproﬁt organization supported by community leaders.</p>
                             
                             <div className="footer_contact mt-20">
-                                <h5 className="footer_title">Contact us</h5>
                                 <p>75 , Sainik Nagar , Telibagh, Lucknow - 226025</p>
                             </div> 
                         </div> 
@@ -48,15 +47,25 @@ export default function Footer()
                     </div>
                     <div className="col-lg-3 col-md-6 order-md-2 order-lg-3">
                         <div className="footer_subscribe mt-50">
-                            <h5 className="footer_title">Subscribe</h5>
-                            <p>Parth Charitable Trust is a nonproﬁt organization supported by community leaders.</p>
-                            <div className="subscribe_form">
-                                <form action="#">
-                                    <input type="text" placeholder="Email"/>
-                                    <button><i className="fa fa-paper-plane"></i></button>
-                                </form>
+                        <h5 className="footer_title">Contact us</h5>
+                            <div className="single_info d-flex align-items-center mt-30">
+                                <div className="info_icon">
+                                <p><i className="fa fa-home"></i>
+                                    75 , Sainik Nagar , Telibagh  Lucknow - 226025</p>
+                                </div>
                             </div>
-                            
+                            <div className="single_info d-flex align-items-center mt-30">
+                                <div className="info_icon">
+                                <p><i className="fa fa-phone"></i>
+                                +91 7007688968</p>
+                                </div>
+                            </div>
+                            <div className="single_info d-flex align-items-center mt-30">
+                                <div className="info_icon">
+                                <p><i className="fa fa-envelope"></i>
+                                parthcharity@gmail.com</p>
+                                </div>
+                            </div>
                         </div> 
                     </div>
                 </div> 
@@ -83,7 +92,6 @@ export default function Footer()
         </div>
     </div>
     </footer>
-  
     
      </div>
  )
