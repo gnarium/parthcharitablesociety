@@ -214,7 +214,7 @@ export default function Home() {
                     <div className="col-lg-12">
                         <div className="section_title text-center pb-30">
                             <img src="assets/images/section_icon.png" alt="Icon"/>
-                            <h3 className="title">Featured Camapaign</h3>
+                            <h3 className="title">Our Running Camapaign</h3>
                         </div> 
                     </div>
                     <div class="containercampaign">
