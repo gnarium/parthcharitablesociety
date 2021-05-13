@@ -44,40 +44,41 @@ export default function Home() {
             <section className="service_area">
                 <div className="container-fluid p-0">
                     <div className="row no-gutters justify-content-center">
-                        <div className="col-lg-4">
-                            <div className="single_services text-center services_1">
-                                <div className="services_icon">
-                                    <img src="assets/images/s-icon-1.png" alt="icon"/>
-                                </div>
-                                <div className="services_content">
-                                    <h4 className="services_title"><a href="#">Women and Child Development </a></h4>
-                                        <p>Parth Charitable Trust is a nonproﬁt organization supported by community leaders, corporate sponsors, churches.</p>
-                                </div>
-                            </div>
+                    <div className="col-lg-4">
+                    <div className="single_services text-center services_1">
+                        <div className="services_icon">
+                            <img src="assets/images/s-icon-1.png" alt="icon"/>
                         </div>
-                        <div className="col-lg-4">
-                            <div className="single_services active_2 text-center services_2">
-                                <div className="services_icon">
-                                    <img src="assets/images/s-icon-2.png" alt="icon"/>
-                                </div>
-                                <div className="services_content">
-                                    <h4 className="services_title"><a href="#">Child Education</a></h4>
-                                        <p>Parth Charitable Trust is a nonproﬁt organization supported by community leaders, corporate sponsors, churches.</p>
-                                </div>
-                            </div> 
+                        <div className="services_content">
+                            <h4 className="services_title"><a href="#">Be a Volunteer</a></h4>
+                            <p>Parth Charity Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches.</p>
                         </div>
-                        <div className="col-lg-4">
-                            <div className="single_services text-center services_3">
-                                <div className="services_icon">
-                                    <img src="assets/images/s-icon-3.png" alt="icon"/>
-                                </div>
-                                <div className="services_content">
-                                    <h4 className="services_title"><a href="#">Environmental Protection</a></h4>
-                                        <p>Parth Charitable Trust is a nonproﬁt organization supported by community leaders, corporate sponsors, churches.</p>
-                                </div>
-                            </div> 
+                    </div>
+
+                </div>
+                <div className="col-lg-4">
+                    <div className="single_services active_2 text-center services_2">
+                        <div className="services_icon">
+                            <img src="assets/images/s-icon-2.png" alt="icon"/>
+                        </div>
+                        <div className="services_content">
+                            <h4 className="services_title"><a href="#">Donate Now</a></h4>
+                            <p>Parth Charity Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches.</p>
                         </div>
                     </div> 
+                </div>
+                <div className="col-lg-4">
+                    <div className="single_services text-center services_3">
+                        <div className="services_icon">
+                            <img src="assets/images/s-icon-3.png" alt="icon"/>
+                        </div>
+                        <div className="services_content">
+                            <h4 className="services_title"><a href="#">Send Gift</a></h4>
+                            <p>Parth Charity Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches.</p>
+                        </div>
+                    </div> 
+                </div>
+            </div> 
                 </div> 
             </section>
             <section class="campaing_doner_area">
@@ -87,7 +88,7 @@ export default function Home() {
                     <div class="col-lg-12">
                         <div class="section_title text-center pb-30">
                             <img src="assets/images/section_icon.png" alt="Icon"/>
-                            <h3 class="title">Our Running Camapaign</h3>
+                            <h3 class="title">Featured Camapaign</h3>
                         </div> 
                     </div>
                 </div> 
@@ -103,7 +104,7 @@ export default function Home() {
                                             </div>
                                             <div class="items_content media-body">
                                                 <h4 class="items_title">Women and Child Development</h4>
-                                                <p>Helpgrove is a nonproﬁt organization supported by community leaders</p>
+                                                <p>Parth Charity Society is a nonproﬁt organization supported by community leaders</p>
                                             </div>
                                         </div> 
                                     </a>
@@ -116,7 +117,7 @@ export default function Home() {
                                             </div>
                                             <div class="items_content media-body">
                                                 <h4 class="items_title">Child Education </h4>
-                                                <p>Helpgrove is a nonproﬁt organization supported by community leaders</p>
+                                                <p>Parth Charity Society is a nonproﬁt organization supported by community leaders</p>
                                             </div>
                                         </div>
                                     </a>
@@ -129,7 +130,7 @@ export default function Home() {
                                             </div>
                                             <div class="items_content media-body">
                                                 <h4 class="items_title">Environtmental Protection</h4>
-                                                <p>Helpgrove is a nonproﬁt organization supported by community leaders</p>
+                                                <p>Parth Charity Society is a nonproﬁt organization supported by community leaders</p>
                                             </div>
                                         </div> 
                                     </a>
@@ -214,7 +215,7 @@ export default function Home() {
                     <div className="col-lg-12">
                         <div className="section_title text-center pb-30">
                             <img src="assets/images/section_icon.png" alt="Icon"/>
-                            <h3 className="title">Our Running Camapaign</h3>
+                            <h3 className="title">Featured Camapaign</h3>
                         </div> 
                     </div>
                     <div class="containercampaign">
