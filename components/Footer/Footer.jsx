@@ -16,9 +16,7 @@ export default function Footer()
                             
                             <p>Parth Charitable Trust is a nonproﬁt organization supported by community leaders.</p>
                             
-                            <div className="footer_contact mt-20">
-                                <p>75 , Sainik Nagar , Telibagh, Lucknow - 226025</p>
-                            </div> 
+                             
                         </div> 
                     </div>
                     <div className="col-lg-5 col-md-12 order-md-3 order-lg-2">
@@ -50,20 +48,17 @@ export default function Footer()
                         <h5 className="footer_title">Contact us</h5>
                             <div className="single_info d-flex align-items-center mt-30">
                                 <div className="info_icon">
-                                <p><i className="fa fa-home"></i>
-                                    75 , Sainik Nagar , Telibagh  Lucknow - 226025</p>
+                                    <i className="fa fa-home">&nbsp;Address:&nbsp;</i>75 , Sainik Nagar , Telibagh   Lucknow - 226025
                                 </div>
                             </div>
                             <div className="single_info d-flex align-items-center mt-30">
                                 <div className="info_icon">
-                                <p><i className="fa fa-phone"></i>
-                                +91 7007688968</p>
+                                    <i className="fa fa-phone">&nbsp;Call On:&nbsp;</i>+91 7007688968
                                 </div>
                             </div>
                             <div className="single_info d-flex align-items-center mt-30">
                                 <div className="info_icon">
-                                <p><i className="fa fa-envelope"></i>
-                                parthcharity@gmail.com</p>
+                                    <i className="fa fa-envelope">&nbsp;E-mail:&nbsp;</i>parthcharity@gmail.com
                                 </div>
                             </div>
                         </div> 
