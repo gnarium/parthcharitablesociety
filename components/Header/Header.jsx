@@ -67,7 +67,7 @@ export default function Header()
                     </div> 
 
                     <div className="navbar_btn d-none d-sm-block">
-                        <Link href="https://rzp.io/l/wYm1wmz">
+                        <Link>
                             <a className="main-btn" ><i className="fa fa-heart"></i> Donate Now</a>
                         </Link>
                     </div>
