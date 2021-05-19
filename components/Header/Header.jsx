@@ -1,7 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
-export default function Header()
-{
+import Popup from 'reactjs-popup';
+import  { useRef } from 'react';
+const Header = () => {
+  const ref = useRef();
+  const openTooltip = () => ref.current.open();
+  const closeTooltip = () => ref.current.close();
+  const toggleTooltip = () => ref.current.toggle();
     return(
         <div>
                 <header className="header_area">
@@ -67,9 +72,24 @@ export default function Header()
                     </div> 
 
                     <div className="navbar_btn d-none d-sm-block">
-                        <Link>
-                            <a className="main-btn" ><i className="fa fa-heart"></i> Donate Now</a>
-                        </Link>
+                              
+      <Popup
+        ref={ref}
+        trigger={
+          <button type="button" className="btn btn-danger">
+            Donate Now
+          </button>
+        }
+      >
+        <div>
+            <b>Account Number:</b>38183233025
+
+        </div>
+        <div>
+            <b>IFSC Code:</b>SBIN0012830
+            
+        </div>
+      </Popup>
                     </div>
                 
                 </nav> 
@@ -80,3 +100,4 @@ export default function Header()
         </div>
     )
 }
+export default Header
