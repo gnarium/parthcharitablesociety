@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React, { useRef, useState } from "react";
 import ReactHover from 'react-hover'
 
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -25,63 +26,60 @@ export default function Home() {
         <div>
             <Swiper navigation={true} className="mySwiper">
                 <SwiperSlide>
-                    <img src="assets/images/Healthcare.jpg" alt="slider"/>
+                    <img src="assets/images/slider6.jpg" alt="slider"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                <img src="assets/images/Child Development And Their Education.jpg" alt="slider"/>
+                <img src="assets/images/slider4.jpg" alt="slider"/>
                 </SwiperSlide>
                 <SwiperSlide>
-                <img src="assets/images/Sanitation.jpg" alt="slider"/>
-                </SwiperSlide>
-                <SwiperSlide>
-                <img src="assets/images/Tree Plantation.jpg" alt="slider"/>
-                </SwiperSlide>
-                <SwiperSlide>
-                <img src="assets/images/ChildEducation.jpg" alt="slider"/>
+                <img src="assets/images/slider5.jpg" alt="slider"/>
                 </SwiperSlide>
                 
             </Swiper>
             <section className="service_area">
-                <div className="container-fluid p-0">
-                    <div className="row no-gutters justify-content-center">
-                    <div className="col-lg-4">
-                    <div className="single_services text-center services_1">
-                        <div className="services_icon">
+                <div class="container-fluid p-0">
+            <div class="row no-gutters justify-content-center">
+                <div class="col-lg-4">
+                    <div class="single_services text-center services_1">
+                        <div class="services_icon">
                             <img src="assets/images/s-icon-1.png" alt="icon"/>
                         </div>
-                        <div className="services_content">
-                            <h4 className="services_title"><a href="#">Be a Volunteer</a></h4>
-                            <p>Parth Charity Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches.</p>
+                        <div class="services_content">
+                            <h4 class="services_title"><a href="#">Be a Volunteer</a></h4>
+                            <p>Parth charitable Trust is a nonproﬁt organization supported by community leaders, corporate sponsors, churches.</p>
                         </div>
-                    </div>
-
-                </div>
-                <div className="col-lg-4">
-                    <div className="single_services active_2 text-center services_2">
-                        <div className="services_icon">
-                            <img src="assets/images/s-icon-2.png" alt="icon"/>
-                        </div>
-                        <div className="services_content">
-                            <h4 className="services_title"><a href="#">Donate Now</a></h4>
-                            <p>Parth Charity Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches.</p>
-                        </div>
+                        <a href="#"><button className="btn btn-default">Read More</button></a>
                     </div> 
                 </div>
-                <div className="col-lg-4">
-                    <div className="single_services text-center services_3">
-                        <div className="services_icon">
+                <div class="col-lg-4">
+                    <div class="single_services active_2 text-center services_2">
+                        <div class="services_icon">
+                            <img src="assets/images/s-icon-2.png" alt="icon"/>
+                        </div>
+                        <div class="services_content">
+                            <h4 class="services_title"><a href="#">Donate Now</a></h4>
+                            <p>Parth charitable Trust is a nonproﬁt organization supported by community leaders, corporate sponsors, churches.</p>
+                        </div>
+                        <a href="#"><button className="btn btn-default">Read More</button></a>
+                    </div> 
+                </div>
+                <div class="col-lg-4">
+                    <div class="single_services text-center services_3">
+                        <div class="services_icon">
                             <img src="assets/images/s-icon-3.png" alt="icon"/>
                         </div>
-                        <div className="services_content">
-                            <h4 className="services_title"><a href="#">Send Gift</a></h4>
-                            <p>Parth Charity Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches.</p>
+                        <div class="services_content">
+                            <h4 class="services_title"><a href="#">Send Gift</a></h4>
+                            <p>Parth charitable Trust is a nonproﬁt organization supported by community leaders, corporate sponsors, churches.</p>
+
                         </div>
+                        <a href="#"><button className="btn btn-default">Read More</button></a>
                     </div> 
                 </div>
             </div> 
-                </div> 
+        </div> 
             </section>
-            <section class="campaing_doner_area">
+            <section class="campaing_doner_area" >
         <div class="campaing_area pt-130 pb-110">
             <div class="container">
                 <div class="row">
@@ -100,11 +98,11 @@ export default function Home() {
                                     <a class="active" id="hospital-tab" data-toggle="tab" href="#hospital" role="tab" aria-controls="hospital" aria-selected="true">
                                         <div class="campaing_items items_color_1 d-flex">
                                             <div class="items_icon">
-                                                <img src="assets/images/help-1.jpg"  alt="icon"/>
+                                                <img src="assets/images/help-1.jpg" style={{width:'80px'}}  alt="icon"/>
                                             </div>
                                             <div class="items_content media-body">
-                                                <h4 class="items_title">Women and Child Development</h4>
-                                                <p>Parth Charity Society is a nonproﬁt organization supported by community leaders</p>
+                                                <h4 class="items_title">Women and Child Development </h4>
+                                                <p>Our organization is helping needed children and women by providing them food and work making them self dependent .</p>
                                             </div>
                                         </div> 
                                     </a>
@@ -113,11 +111,11 @@ export default function Home() {
                                     <a id="cancer-tab" data-toggle="tab" href="#cancer" role="tab" aria-controls="cancer" aria-selected="false">
                                         <div class="campaing_items items_color_2 d-flex">
                                             <div class="items_icon">
-                                                <img src="assets/images/ChildEducation.jpg" alt="icon"/>
+                                                <img src="assets/images/ChildEducation.jpg" style={{width:'80px'}} alt="icon"/>
                                             </div>
                                             <div class="items_content media-body">
                                                 <h4 class="items_title">Child Education </h4>
-                                                <p>Parth Charity Society is a nonproﬁt organization supported by community leaders</p>
+                                                <p>We organize educational classes for students who are not able to go to schools because of their financial conditions and other problems , we also donate books and other stationary to help them keep pushing their education .</p>
                                             </div>
                                         </div>
                                     </a>
@@ -126,11 +124,11 @@ export default function Home() {
                                     <a id="environtment-tab" data-toggle="tab" href="#environtment" role="tab" aria-controls="environtment" aria-selected="false">
                                         <div class="campaing_items items_color_3 d-flex">
                                             <div class="items_icon">
-                                                <img src="assets/images/EnvironmentalProtection.jpg" alt="icon"/>
+                                                <img src="assets/images/EnvironmentalProtection.jpg" style={{width:'80px'}} alt="icon"/>
                                             </div>
                                             <div class="items_content media-body">
-                                                <h4 class="items_title">Environtmental Protection</h4>
-                                                <p>Parth Charity Society is a nonproﬁt organization supported by community leaders</p>
+                                                <h4 class="items_title">Environmental Protection </h4>
+                                                <p>Our organization is planting  trees. They give us two of the most crucial elements for our survival: oxygen and books. Be part of this campaign and help us to plant more and more trees for our future.</p>
                                             </div>
                                         </div> 
                                     </a>
@@ -144,17 +142,11 @@ export default function Home() {
                             <div class="tab-content" id="myTabContent">
                                 <div class="tab-pane fade show active" id="hospital" role="tabpanel" aria-labelledby="hospital-tab">
                                     <div class="campaing_content">
-                                        <img src="assets/images/campaing-1.png" alt=""/>
+                                        <img src="assets/images/help-1.jpg"  alt=""/>
 
-                                        <div class="campaing_donate">
-                                            <div class="donate_dollar d-flex justify-content-between">
-                                                <span>Raised $17000</span>
-                                                <span>Goal $37000</span>
-                                            </div> 
-                                            <div class="donate_progress">
-                                                <div class="bar_inner">
-                                                    <div class="bar progress_line" data-width="59"><span class="percentage">59%</span></div>
-                                                </div>
+                                        <div class="campaing_donate" style={{marginTop:'250px'}}>
+                                            <div class="donate_dollar d-flex justify-content-between" style={{color:'white'}}>
+                                               <h4 class="items_title" style={{color:'white'}}>We make a living by what we get, but we make a life by what we give.</h4>
                                             </div> 
                                             <div class="donate_btn">
                                                 <a href="#" class="main-btn"><i class="fa fa-heart"></i> Donate  Now</a>
@@ -164,17 +156,11 @@ export default function Home() {
                                 </div>
                                 <div class="tab-pane fade" id="cancer" role="tabpanel" aria-labelledby="cancer-tab">
                                     <div class="campaing_content">
-                                        <img src="assets/images/campaing-1.png" alt=""/>
+                                        <img src="assets/images/ChildEducation.jpg" alt=""/>
 
-                                        <div class="campaing_donate">
-                                            <div class="donate_dollar d-flex justify-content-between">
-                                                <span>Raised $17000</span>
-                                                <span>Goal $37000</span>
-                                            </div> 
-                                            <div class="donate_progress">
-                                                <div class="bar_inner">
-                                                    <div class="bar progress_line" data-width="59"><span class="percentage">59%</span></div>
-                                                </div>
+                                        <div class="campaing_donate" style={{marginTop:'250px'}}>
+                                            <div class="donate_dollar d-flex justify-content-between" style={{color:'white'}}>
+                                                <h4 class="items_title" style={{color:'white'}}>We make a living by what we get, but we make a life by what we give.</h4>
                                             </div> 
                                             <div class="donate_btn">
                                                 <a href="#" class="main-btn"><i class="fa fa-heart"></i> Donate  Now</a>
@@ -184,17 +170,11 @@ export default function Home() {
                                 </div>
                                 <div class="tab-pane fade" id="environtment" role="tabpanel" aria-labelledby="environtment-tab">
                                     <div class="campaing_content">
-                                        <img src="assets/images/campaing-1.png" alt=""/>
+                                        <img src="assets/images/EnvironmentalProtection.jpg" alt=""/>
 
-                                        <div class="campaing_donate">
+                                        <div class="campaing_donate" style={{marginTop:'250px'}}>
                                             <div class="donate_dollar d-flex justify-content-between">
-                                                <span>Raised $17000</span>
-                                                <span>Goal $37000</span>
-                                            </div> 
-                                            <div class="donate_progress">
-                                                <div class="bar_inner">
-                                                    <div class="bar progress_line" data-width="59"><span class="percentage">59%</span></div>
-                                                </div>
+                                                <h4 class="items_title" style={{color:'white'}}>We make a living by what we get, but we make a life by what we give.</h4>
                                             </div> 
                                             <div class="donate_btn">
                                                 <a href="#" class="main-btn"><i class="fa fa-heart"></i> Donate  Now</a>
@@ -215,95 +195,107 @@ export default function Home() {
                     <div className="col-lg-12">
                         <div className="section_title text-center pb-30">
                             <img src="assets/images/section_icon.png" alt="Icon"/>
-                            <h3 className="title">Featured Camapaign</h3>
-                        </div> 
-                    </div>
-                    <div class="containercampaign">
-                        <img src="assets/images/Food distribution.jpg" alt="Avatar" class="image" style={{height:'400px'}}/>
+                            <h3 className="title">Our Running Camapaign</h3>
+                        </div>
+                </div>
+            </div> 
+            </div>
+            <div className=" col-lg-12">
+            <div className="container">
+                <div className="row">
+                        <div class="containercampaign">
+                        <img src="assets/images/Food distribution.jpg" alt="Avatar" class="image" />
                             <div class="overlay">
-                                <div class="text">We distribute food packages to people who are in need , especially poor colonies where they only can arrange food for them , only one time in a day </div>
+                                <div class="text" style={{textAlign:'justify',fontSize:'15px'}}>We distribute food packages to people who are in need , especially poor colonies where they only can arrange food for them , only one time in a day .</div>
                             </div>
                             <div class="text-center mb-30">
-                                <h4 class="title" style={{textAlign:'justify'}}>Food distribution</h4>
+                                <h4 class="title" style={{textAlign:'center'}}>Food distribution </h4>
                             </div> 
                     </div>
                     <div class="containercampaign">
-                        <img src="assets/images/Empowering Women socially and Economically.jpg" alt="Avatar" class="image" style={{height:'400px'}}/>
+                        <img src="assets/images/Empowering Women socially and Economically.jpg" alt="Avatar" class="image" />
                             <div class="overlay">
-                                <div class="text">Our NGO’s main moto is to help women who are in need either it is educational help or financial we help them with maximum support we can provide.</div>
+                                <div class="text" style={{textAlign:'justify',fontSize:'15px'}}>Our NGO’s main motto is to help women who are in need of either educational help or financial help. We help them with maximum support we can provide.</div>
                             </div>
                             <div class="text-center mb-30">
-                                <h4 class="title" style={{textAlign:'justify'}}>Empowering Women socially and Economically</h4>
+                                <h4 class="title" style={{textAlign:'center'}}>Empowering Women socially and Economically </h4>
                             </div> 
                     </div>
                     <div class="containercampaign">
-                        <img src="assets/images/Child Development And Their Education.jpg" alt="Avatar" class="image" style={{height:'400px'}}/>
+                        <img src="assets/images/Child Development And Their Education.jpg" alt="Avatar" class="image"/>
                             <div class="overlay">
-                                <div class="text">We provide books and stationary to children who are not able to go to school, we also arrange weekly teaching hours to teach poor children and organise events like art and craft to increase creativity among them.</div>
+                                <div class="text" style={{textAlign:'justify',fontSize:'15px'}}>We provide books and stationary to children who are not able to go to school, we also arrange weekly teaching hours to teach poor children and organise events like art and craft to increase creativity among them.</div>
                             </div>
                             <div class="text-center mb-30">
-                                <h4 class="title" style={{textAlign:'justify'}}>Child Development And Their Education</h4>
+                                <h4 class="title" style={{textAlign:'center'}}>Child Development And Their Education </h4>
                             </div> 
                     </div>
                     <div class="containercampaign">
-                        <img src="assets/images/Fitness Awareness.jpg" alt="Avatar" class="image" style={{height:'400px'}}/>
+                        <img src="assets/images/Fitness Awareness.jpg" alt="Avatar" class="image" />
                             <div class="overlay">
-                                <div class="text" style={{textAlign:'justify'}}>A healthy brain resides under a healthy body as the saying says parth charitable society Organising yoga , bicycle rally ,dance competition  etc events and making people aware about it’s benefits for each category of people . </div>
+                                <div class="text" style={{textAlign:'justify',fontSize:'15px'}}>A healthy brain resides under a healthy body as the saying says parth charitable society 
+                                    Organising yoga , bicycle rally ,dance competition  etc events and making people aware about it’s benefits for each category of people .
+                                </div>
                             </div>
                             <div class="text-center mb-30">
-                                <h4 class="title">Fitness Awareness</h4>
+                                <h4 class="title" style={{textAlign:'center'}}>Fitness Awareness : Daily Yoga </h4>
                             </div> 
                     </div>
                     <div class="containercampaign">
-                        <img src="assets/images/Tree Plantation.jpg" alt="Avatar" class="image" style={{height:'400px'}}/>
+                        <img src="assets/images/Tree Plantation.jpg" alt="Avatar" class="image" />
                             <div class="overlay">
-                                <div class="text" style={{textAlign:'justify'}}>No life is possible without trees because  oxygen is essential for all living being , but people are cutting trees in huge amounts , planting very less of them so our NGO is taking an initiative and planting trees and also organising an awareness program to aware people about its effects.</div>
+                                <div class="text" style={{textAlign:'justify',fontSize:'15px'}}>No life is possible without trees because  oxygen is essential for all living beings , but people are cutting trees in huge amounts , planting very less of them so our NGO is taking an initiative and planting trees and also organising an awareness program to aware people about its effects.</div>
                             </div>
                             <div class="text-center mb-30">
-                                <h4 class="title">Tree Plantation</h4>
+                                <h4 class="title"style={{textAlign:'center'}}>Tree Plantation </h4>
                             </div> 
                     </div>
                     <div class="containercampaign">
-                        <img src="assets/images/Helping Animals.jpg" alt="Avatar" class="image" style={{height:'400px'}}/>
+                        <img src="assets/images/Helping Animals.jpg" alt="Avatar" class="image" />
                             <div class="overlay">
-                                <div class="text" style={{textAlign:'justify'}}>There are a lot of animals we can see on the roads who have no home and shelter , our ngo has launched a campaign to give something to eat to at least one animal of their locality.</div>
+                                <div class="text" style={{textAlign:'justify',fontSize:'15px'}}>There are a lot of animals we can see on the roads who have no home and shelter , our ngo has launched a campaign to give something to eat to at least one animal of their locality.</div>
                             </div>
                             <div class="text-center mb-30">
-                                <h4 class="title">Helping Animals</h4>
+                                <h4 class="title" style={{textAlign:'center'}}>Helping Animals </h4>
                             </div> 
                     </div>
                     <div class="containercampaign">
-                        <img src="assets/images/Healthcare.jpg" alt="Avatar" class="image" style={{height:'400px'}}/>
+                        <img src="assets/images/Healthcare.jpg" alt="Avatar" class="image" />
                             <div class="overlay">
-                                <div class="text" style={{textAlign:'justify'}}>Not every person is capable of paying healthcare bills and buying costly medicines , we as a NGO, try to help people who need medications and provide them medications and also generate funds to help them.</div>
+                                <div class="text" style={{textAlign:'justify',fontSize:'15px'}}>Not every person is capable of paying healthcare bills and buying costly medicines , we as a NGO, try to help people who need medications and provide them medications and also generate funds to help them.</div>
                             </div>
                             <div class="text-center mb-30">
-                                <h4 class="title">Healthcare</h4>
+                                <h4 class="title" style={{textAlign:'center'}}>Healthcare</h4>
                             </div> 
                     </div>
                     <div class="containercampaign">
-                        <img src="assets/images/Sanitation.jpg" alt="Avatar" class="image" style={{height:'400px'}}/>
+                        <img src="assets/images/Sanitation.jpg" alt="Avatar" class="image" />
                             <div class="overlay">
-                                <div class="text" style={{textAlign:'justify'}}>As in  india we say “laxmi wahi was karti hai jaha swachta hoti hai ” so our earth is our home and making it clean is every person’s responsibility . Volunteer of our NGO  organise awareness program time to time to make people remember their social responsibility.</div>
+                                <div class="text" style={{textAlign:'justify',fontSize:'15px'}}>As in  India we say “laxmi wahi was karti hai jaha swachta hoti hai ” so our earth is our home and making it clean is every person’s responsibility . Volunteers of our NGO  organise awareness programs from time to time to make people remember their social responsibility.</div>
                             </div>
                             <div class="text-center mb-30">
-                                <h4 class="title">Sanitation</h4>
+                                <h4 class="title" style={{textAlign:'center'}}>Sanitation </h4>
                             </div> 
                     </div>
                     
-                    <div class="containercampaign" >
-                        <img src="assets/images/Drinking Water.jpg"  alt="Avatar" class="image" style={{height:'400px'}}/>
-                            <div class="overlay">
-                                <div class="text" style={{textAlign:'justify'}}>In india in summers we start this campaign first we provide water for birds and animals at our home roofs and at front of our houses , and we also  arrange a “ drinking water point “ so that people who need water can drink from there, we are also running an initiative for cleaning our rivers so that we can drink clean water.</div>
-                            </div>
-                            <div class="text-center mb-30">
-                                <h4 class="title">Drinking Water</h4>
-                            </div> 
                     </div>
                 </div>
-            </div> 
-            
+            </div>
+            <div className="container">
+                <div className="row" >
+                    <div class="containercampaign" style={{marginLeft:'400px'}}>
+                        <img src="assets/images/Drinking Water.jpg"  alt="Avatar" class="image" />
+                            <div class="overlay">
+                                <div class="text" style={{textAlign:'justify',fontSize:'15px'}}>In india in summers we start this campaign first we provide water for birds and animals at our home roofs and at front of our houses , and we also  arrange a “ drinking water point “ so that people who need water can drink from there, we are also running an initiative for cleaning our rivers so that we can drink clean water.</div>
+                            </div>
+                            <div class="text-center mb-30">
+                                <h4 class="title" style={{textAlign:'center'}}>Drinking Water</h4>
+                            </div> 
+                    </div>
+                    
 
+                </div>
+            </div>
     <section className="volunteer_area pt-130 pb-130">
         <div className="container">
             <div className="row">
@@ -318,13 +310,13 @@ export default function Home() {
                 <div className="col-lg-4 col-sm-6">
                     <div className="single_volunteer mt-30 volunteer_color_1">
                         <div className="volunteer_image">
-                            <img src="assets/images/1.jpg" alt="Volunteer"/>
+                            <img src="assets/images/Dr Archana Singh.jpg" alt="Volunteer"/>
                              
                         </div>
                         <div className="volunteer_content d-flex align-items-center justify-content-center">
                             <div className="content_wrapper">
-                                <h5 className="volunteer_name"><a href="#">Maria Noor</a></h5>
-                                <p>Volunteer</p>
+                                <h5 className="volunteer_name"><a href="#">Dr Archana Singh</a></h5>
+                                
                             </div>
                         </div>
                     </div> 
@@ -332,13 +324,13 @@ export default function Home() {
                 <div className="col-lg-4 col-sm-6">
                     <div className="single_volunteer mt-30 volunteer_color_2">
                         <div className="volunteer_image">
-                            <img src="assets/images/2.jpg"  alt="Volunteer"/>
+                            <img src="assets/images/Bhagwan Singh.jpg"  alt="Volunteer"/>
                              
                         </div>
                         <div className="volunteer_content d-flex align-items-center justify-content-center">
                             <div className="content_wrapper">
-                                <h5 className="volunteer_name"><a href="#">Kiara Roy</a></h5>
-                                <p>Volunteer</p>
+                                <h5 className="volunteer_name"><a href="#">Bhagwan Singh</a></h5>
+                                
                             </div>
                         </div>
                     </div> 
@@ -346,13 +338,13 @@ export default function Home() {
                 <div className="col-lg-4 col-sm-6">
                     <div className="single_volunteer mt-30 volunteer_color_3">
                         <div className="volunteer_image">
-                            <img src="assets/images/Akanshu.jpg"  alt="Volunteer"/>
+                            <img src="assets/images/SP Singh.jpg"  alt="Volunteer"/>
                              
                         </div>
                         <div className="volunteer_content d-flex align-items-center justify-content-center">
                             <div className="content_wrapper">
-                                <h5 className="volunteer_name"><a href="#">Adams Hobes</a></h5>
-                                <p>Volunteer</p>
+                                <h5 className="volunteer_name"><a href="#">S P Singh</a></h5>
+                                
                             </div>
                         </div>
                     </div> 
@@ -376,11 +368,10 @@ export default function Home() {
                     <div className="single_volunteer mt-30 volunteer_color_1">
                         <div className="volunteer_image">
                             <img src="assets/images/Anita Singh Bisen Ji Founder.jpg" alt="Volunteer"/>
-                             
                         </div>
                         <div className="volunteer_content d-flex align-items-center justify-content-center">
                             <div className="content_wrapper">
-                                <h5 className="volunteer_name"><a href="#">Anita Singh Bisen Ji</a></h5>
+                                <h5 className="volunteer_name" style={{textAlign:'left'}}><a href="#">Anita Singh Bisen Ji</a></h5>
                                 <p>Founder</p>
                             </div>
                         </div>
@@ -422,15 +413,21 @@ export default function Home() {
                         <div className="volunteer_content d-flex align-items-center justify-content-center">
                             <div className="content_wrapper">
                                 <h5 className="volunteer_name"><a href="#">Pooja Singh</a></h5>
-                                <p>Vice President</p>
+                                <p>Treasurer</p>
                             </div>
                         </div>
                     </div> 
                 </div>
+                
+            </div> 
+        </div> 
+    </section>
+        <div className="container" >
+            <div className="row" style={{marginLeft:'100px',marginTop:'-130px'}}>
                 <div className="col-lg-3 col-sm-6">
                     <div className="single_volunteer mt-30 volunteer_color_4">
                         <div className="volunteer_image">
-                            <img src="assets/images/Manorama Ji Chief Secreatory.jpg" alt="Volunteer"/>
+                            <img src="assets/images/Manorama Ji Chief Secreatory.jpg" className="center" alt="Volunteer"/>
                              
                         </div>
                         <div className="volunteer_content d-flex align-items-center justify-content-center">
@@ -444,7 +441,7 @@ export default function Home() {
                 <div className="col-lg-3 col-sm-6">
                     <div className="single_volunteer mt-30 volunteer_color_4">
                         <div className="volunteer_image">
-                            <img src="assets/images/pooja singh Chandel Sachiv( Secretary).jpg" alt="Volunteer"/>
+                            <img src="assets/images/pooja singh Chandel Sachiv( Secretary).jpg" className="center" alt="Volunteer"/>
                              
                         </div>
                         <div className="volunteer_content d-flex align-items-center justify-content-center">
@@ -455,10 +452,10 @@ export default function Home() {
                         </div>
                     </div> 
                 </div>
-                <div className="col-lg-3 col-sm-6">
-                    <div className="single_volunteer mt-30 volunteer_color_4">
+                <div className="col-lg-3 col-sm-6" >
+                    <div className="single_volunteer mt-30 volunteer_color_4" >
                         <div className="volunteer_image">
-                            <img src="assets/images/Sunil Singh Chief Incharge.jpg" alt="Volunteer"/>
+                            <img src="assets/images/Sunil Singh Chief Incharge.jpg" className="center" alt="Volunteer"/>
                              
                         </div>
                         <div className="volunteer_content d-flex align-items-center justify-content-center">
@@ -471,7 +468,7 @@ export default function Home() {
                 </div>
             </div> 
         </div> 
-    </section>
+    
     <section className="volunteer_area pt-130 pb-130">
         <div className="container">
             <div className="row">
@@ -504,7 +501,7 @@ export default function Home() {
         </div>
     </section>
     <div class="donate_btn" style={{textAlign:'center'}}>
-            <a href="/cause" class="main-btn" >Click here </a>
+            <a href="/cause" class="main-btn" >View More </a>
     </div>    
     <section className="volunteer_area pt-130 pb-130">
         <div className="container">
