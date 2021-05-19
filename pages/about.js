@@ -26,14 +26,9 @@ export default function About()
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-lg-6">
-                    <div className="about_image mt-50">
-                        <div className="image_1">
-                            <img src="assets/images/about-2.jpg" alt="about"/>
-                        </div>
-                        <div className="image_2">
-                            <img src="assets/images/about-3.jpg" alt="about"/>
-                        </div>
-                    </div> 
+                    <div className="image_1">
+                        <img src="assets/images/about.jpg" style={{height:'700px'}} alt="about"/>
+                    </div>
                 </div>
                 <div className="col-lg-6">
                     <div className="about_content_3 mt-45">
@@ -53,22 +48,26 @@ export default function About()
             </div> 
         </div> 
     </section>
-    <section className="video_area_3 pt-80 pb-130 bg_cover" style={{backgroundImage: 'url(assets/images/4.jpg)'}}>
+    
+    <section className="video_area_3 pt-80 pb-130 bg_cover" style={{backgroundImage: 'url(assets/images/videobg.jpg)'}}>
         <div className="container">
             <div className="row align-items-center">
-                <div className="col-lg-7">
+                <div className="col-lg-6">
+                    <div className="video_image mt-50">
+                        <img src="assets/images/services-1.jpg" alt="video"/>
+                    </div> 
                 </div>
-                <div className="col-lg-5">
+                <div className="col-lg-6">
                     <div className="video_content_3 mt-45">
                         <h4 className="video_title">We served more then 50k+ peoples</h4>
-                        <p>Parth Charitable Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches and concerned citizens join. There will be a day–in our lifetime–when we get to celebrate.</p>
+                        <p>Parth Charity Trust is a nonproﬁt organization supported by community leaders, corporate sponsors, churches and concerned citizens join. There will be a day–in our lifetime–when we get to celebrate.</p>
                         <a href="#" className="main-btn"><i className="fa fa-heart"></i> Donate  Now</a>
                     </div> 
                 </div>
             </div> 
         </div> 
     </section>
-    &nbsp;
+    
         </div>
     )
 }
