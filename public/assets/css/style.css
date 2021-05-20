@@ -2207,17 +2207,63 @@ p {
     width: 100%; }
   .campaing_content .campaing_donate {
     position: absolute;
-    top: 30px;
+    top: -30px;
     left: 0;
     width: 70%;
     right: 0;
     margin: 0 auto;
     background: #f86048;
     padding: 30px; }
+    @media (max-width: 320px) {
+      .campaing_content .campaing_donate {
+        width: 90%;
+        padding-top: 15px;
+        top: -160px !important;
+         } }
+    
+    @media (max-width: 360px) {
+      .campaing_content .campaing_donate {
+        width: 90%;
+        padding-top: 15px;
+        top: -115px !important;
+         } }
+    @media (max-width: 411px) {
+      .campaing_content .campaing_donate {
+        width: 90%;
+        padding-top: 15px;
+        top: -100px !important;
+         } }
+    @media (max-width: 414px) {
+      .campaing_content .campaing_donate {
+        width: 90%;
+        padding-top: 15px;
+        top: -110px;
+         } }
+    @media (max-width: 768px) {
+      .campaing_content .campaing_donate {
+        width: 90%;
+        padding-top: 15px;
+        top: 60px;
+         } }
+    @media (max-width: 540px) {
+      .campaing_content .campaing_donate {
+        width: 90%;
+        padding-top: 15px;
+        top: -60px;
+         } }
+    @media (max-width: 280px) {
+      .campaing_content .campaing_donate {
+        width: 90%;
+        padding-top: 15px;
+        top: -190px !important;
+         } }
+    
+    
     @media (max-width: 767px) {
       .campaing_content .campaing_donate {
         width: 90%;
-        padding-top: 15px; } }
+        padding-top: 15px;
+         } }
     .campaing_content .campaing_donate .donate_dollar span {
       font-size: 14px;
       color: #fff; }
@@ -5065,3 +5111,4 @@ form:before {
     margin: 20px;
   }
 }
+
